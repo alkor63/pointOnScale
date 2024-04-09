@@ -1,7 +1,11 @@
 package org.example;
 
-public class Main {
+import javax.swing.*;
+
+public class Main extends JFrame {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new FormulaImage();
+        JFrame widowABC = new InputWindow();
+        widowABC.setVisible(true);
     }
 }
